@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-color: rgba(220, 42, 42, 0.861);
+}
+
+.Navbar
+{
+display: flex;
+color: whitesmoke;
+background-color: black;
+padding: 15px;
+}
+
+.logo
+{
+    padding-right: 75%;
+}
+
+.nav-links a
+{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.nav-links
+{
+    color: white;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links a:hover
+{
+    color: rgba(220, 42, 42, 0.861);
+}
+
+a
+{
+text-decoration: none ;
+}
+
+.spel-sektion
+{
+    padding: 30px;
+}
+
+.rubrik
+{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.spel-grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.spel-kort
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.spel-kort img
+{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.spel-kort h2
+{
+    font-size: 18px;
+    margin: 12px 0 8px;
+}
+
+.Desc
+{
+    border-style: solid;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.spel-kort button
+{
+    margin-top: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(220, 42, 42, 0.861);
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.spel-kort button:hover
+{
+    background-color: rgba(180, 30, 30, 0.95);
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.footer-info
+{
+    max-width: 500px;
+}
+
+.footer-img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 20px 10px 0;
+}
+
+.TITLE
+{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.footer-info p {
+  overflow: hidden; /* stops the text from wrapping under the image */
+  text-align: left;
+ 
+  
+
+}
+
+.footer h2
+{
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.footer p
+{
+    
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer-kontakt
+{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.testimonials
+{
+    max-width: 500px;
+}
+
+.testimonial
+{
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.citat
+{
+    font-style: italic;
+}
+
+.namn
+{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.smal-footer
+{
+    background-color: #2b2b2b;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
